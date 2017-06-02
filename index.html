@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Load style sheets -->
+<link rel="stylesheet" href=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+<script src=
+                "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="table.js"></script>
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<script>
+    var columns = ["col1", "col2"];
+    var total_rows = 1;
+	var total_columns = 2;
+    var row_idx_to_order = {1:"row1"};
+	var col_order_to_idx = {1:1, 2:2}
+</script>
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <table class="table table-bordered table-hover" id="tab_logic">
+                <thead>
+                    <tr >
+                        <th class="text-center">
+                            #
+                        </th>
+                        <th class="text-center" id="th1">
+                            Paul
+                        </th>
+                        <th class="text-center" id="th2">
+                            Jane
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id='row1'>
+                        <td>
+                            Score
+                        </td>
+                        <td id="td11">
+                            <input type="text" name='name0'  placeholder='' class="form-control data-input" id="11"/>
+                        </td>
+                        <td id="td12">
+                            <input type="text" name='mail0' placeholder='' class="form-control data-input" id="12"/>
+                        </td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+</div>
+</body>
+</html>

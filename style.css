@@ -1,0 +1,49 @@
+
+.body{
+    text-align: center;
+}
+
+.container{
+	
+	margin-top: 20px;
+}
+
+.table{
+	font-size:20px;
+	text-align:center;
+}
+
+.mainContent{
+    margin-top: 60px;
+}
+
+.col_name{
+    height: 70px;
+    vertical-align: middle;
+    margin-top:10px;
+    border: #cdcdcd 1px solid;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.data {
+    height: 50px;
+    vertical-align: middle;
+    border: #cdcdcd 1px solid;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.mainContent{
+    vertical-align: middle;
+}
+
+body{
+    vertical-align: middle;
+}
+
+.data-input{
+	
+	text-align:center;
+}
+
